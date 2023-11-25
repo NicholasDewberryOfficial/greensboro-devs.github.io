@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* css Zen Garden submission 055 - 'zenlightenment' by Lance Leonard, http://www.solarfrog.com/ */
 /* css released under Creative Commons ShareAlike License v1.0 - http://creativecommons.org/licenses/sa/1.0/  */
 /* All associated graphics copyright 2003,  Lance Leonard */
@@ -245,3 +246,28 @@ footer {
 footer a {
 	color: #fff;
 }
+=======
+.container {  display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 1fr 1.5fr 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	justify-items: center;
+	align-items: center;
+	grid-template-areas:
+	  "Pic1 IntroText Pic2"
+	  ". IntroText Pic4"
+	  "Pic3 . .";
+  }
+  
+  .Pic1 { grid-area: Pic1; }
+  
+  .Pic2 { grid-area: Pic2; }
+  
+  .Pic3 { grid-area: Pic3; }
+  
+  .Pic4 { grid-area: Pic4; }
+  
+  .IntroText { grid-area: IntroText; }
+  
+>>>>>>> Stashed changes
